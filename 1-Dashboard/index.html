@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advice</title>
+    <link rel="stylesheet" href="../rest.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yekan+Bakh:wght@300;400;600;700&display=swap" />
+  
+    <link rel="stylesheet" href="dash-menu.css">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header.css">
+  </head>
+  <body>
+    
+    <div class="main-container">
+      <!--menu-->
+      <div class="rectangle">
+        <div class="image-menu">
+          <a href="#"><div class="finla-farsi"></div></a>
+          <a href="#"><div class="finla-farsi-1"></div></a>
+        </div>
+        <div class="menu-content">
+          <div class="menu-content-all">
+            <span class="menu-text">منو</span>
+            <div class="menu-button">
+              <!--دکمه داشبورد-->
+             <button class="dashboard-button" type="button" onclick="location.href='dev404.ir';">
+                <div class="dashboard-button_span"><span class="twelve">۱۲</span></div>
+                <span class="dashboard-button_text">داشبورد</span>
+                <!--ایکون دکمه داشبورد-->
+                <div class="grid">
+                <img src="./assets/images/dashboard/grid.svg" alt="">
+                </div>
+                <!--ایکون دکمه داشبورد-->
+
+              </button>
+              <!--دکمه داشبورد-->
+              <!--دکمه لیست تبلیغات من-->
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">لیست تبلیغات من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/file.png" class="icon" alt=""></div>
+              </button>
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">لیست بلاک من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/block-list.png" class="icon" alt=""></div>
+              </button>
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">ارسال تیکت</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/send-ticket.png" class="icon" alt=""></div>
+              </button>
+              <div class="dashboard-button3">
+                <button class="span-button" ><span class="two">۲</span></button
+                ><span class="dashboard-button_text2">تیکت های من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/i-tecket.png" class="icon" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="frame-12">
+            <span class="dashboard-button_text2" >تنظیمات</span>
+            <div class="frame-13">
+              <button  class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">تغییر رمز عبور</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/finger.png" class="icon" alt=""></div>
+              </button> 
+              <button  class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">درباره ما</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/about.png" class="icon" alt=""></div>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="space-zone"></div>
+        <div class="profile-dashboard">
+          <button class="profile-logout" type="button" onclick="location.href='#';"></button>
+          <div class="profile-box">
+            <div class="profile-box_text">
+              <span class="human-hosseini">هومن حسنی</span
+              ><span class="logout-text">خروج از حساب</span>
+            </div>
+            <a href="#"><img src="./assets/images/dashboard/prfile-img.png" class="profile-img" ></a>
+          </div>
+        </div>
+      </div>
+      <!--menu-->
+      <!--Header-->
+      <div class="header-container">
+        <div class="header-profile-box">
+          <div class="icon-down" onclick="toggleDropdown()">
+          
+          </div>
+          <div class="header-profile_text">
+            <span class="userName">هومن حسنی</span>
+            <span class="userAccess">مدیر سیستم</span>
+          </div>
+          <a href="#"><img src="./assets/images/header/user-prof.png" alt="" class="profile-img"></a>
+          
+          <div id="dropdownMenu" class="dropdown-content">
+            <a href="#">پروفایل</a>
+            <a href="#">تنظیمات</a>
+            <a href="#">خروج</a>
+          </div>
+         
+        </div>
+
+        <a href="#"><img src="./assets/images/header/qu-icon.png" alt="" class="qu-icon"></a>
+        <div class="header-search-box">
+          <input type="text" class="input frame-input" id="searchInput" placeholder="جستجو..." dir="rtl" style="padding-right: 5rem;" />
+
+          <div class="icon-search"></div>
+        </div>
+      </div>
+
+       <!--Header-->
+       <!--Content-->
+       <div class="broadcamp">
+        <span class="broadcamp-text">داشبورد</span><span class="broadcamp-arrow">></span
+        ><span class="broadcamp-to">خانه</span>
+      </div>
+      <div class="main-img-box">
+        <div class="main-img-content img-style1">
+          <div class="main-img_illust">
+          <img src="./assets/images/457939b2-1acc-4cd1-9556-bbad1543a2b5.png"class="main-img_style" alt="">
+          </div>
+          <div class="main-img-textbox">
+            <span class="illus-text">ویو کل تبلیغات شما</span
+            ><span class="numb-1">۵۰K</span>
+          </div>
+        </div>
+        <div class="main-img-content img-style2">
+          <div class="main-img_illust">
+            <img src="./assets/images/5f8c8fca-cd7d-4444-86eb-89bd1c9f6b0e.png"class="main-img_style" alt="">
+          </div>
+          <div class="main-img-textbox">
+            <span class="illus-text">پیج های شرکت کننده</span
+            ><span class="numb-2">۱۸۲</span>
+          </div>
+        </div>
+        <div class="main-img-content img-style3">
+          <div class="main-img_illust">
+            <img src="./assets/images/4bdf59d3-e616-4590-bfcc-f1ffa5406ab2.png"class="main-img_style" alt="">
+          </div>
+          <div class="main-img-textbox">
+            <span class="illus-text">کاربران شرکت کننده</span
+            ><span class="numb-3">۷۳</span>
+          </div>
+        </div>
+        <div class="main-img-content img-style4">
+          <div class="main-img_illust">
+            <img src="./assets/images/5c513b26-a178-4341-84c9-921c1e187b85.png"class="main-img_style" alt="">
+          </div>
+          <div class="main-img-textbox">
+            <span class="illus-text">تعداد تبلیغات شما</span
+            ><span class="numb-4">۸</span>
+          </div>
+        </div>
+      </div>
+      <div class="tabel-continer">
+        <span class="tabel-chart_title">نمودار روند تبلیغات</span>
+        <div class="table-chart">
+          <div class="chart-item">
+            <span class="chart-item_count">۱.۳۴K</span>
+            <div class="chart-item_shape"></div>
+          </div>
+          <div class="chart-dropdown-box" >
+            <div class="chart-dropdown_icon" ></div>
+            <span class="chart-dropdown_text" >دیجی کالا فلان</span>
+          </div>
+          <div class="chart-dropdown-menu" style="display: none;">
+            <ul>
+                <li>چارت 1</li>
+                <li>چارت 2</li>
+                <li>چارت 3</li>
+            </ul>
+        </div>
+          <div class="chart"></div>
+        </div>
+      </div>
+      <div class="ticket-continer">
+        <span class="latest-tickets">آخرین تیکت ها</span>
+        <div class="ticket-box_style">
+          <div class="ticket-box_topbox">
+            <div class="ticket-topbox_iconbox ">
+              <div class="ticket-topbox_massagebox">
+                <img src="./assets/images/aa67d72e-31a3-4503-b3fe-77f762035789.png" class="icon-massage" alt="">
+              </div>
+              <span class="icon-massage_number">۲</span>
+            </div>
+            <span class="ticket-topbox_title"
+              >مشکل در بارگذاری گزارش عملکرد کمپین</span
+            ><span class="ticket-topbox_number">#۰۱</span>
+          </div>
+          <div class="ticket-downbox">
+            <span class="ticket-downbox_date">۱۴۰۳/۰۴/۲۳</span
+            ><span class="ticket-downbox_detail"
+              >دیجی کالا فلان - #1720874158
+            </span>
+          </div>
+        </div>
+        <div class="ticket-box_style">
+          <div class="ticket-box_topbox">
+            <div class="ticket-topbox_iconbox">
+              <div class="ticket-topbox_massagebox">
+                <img src="./assets/images/aa67d72e-31a3-4503-b3fe-77f762035789.png" class="icon-massage" alt="">
+              </div>
+              <span class="icon-massage_number">۱</span>
+            </div>
+            <span class="ticket-topbox_title"
+              >مشکل در بارگذاری گزارش عملکرد کمپین</span
+            ><span class="ticket-topbox_number">#۰۲</span>
+          </div>
+          <div class="ticket-downbox ">
+            <span class="ticket-downbox_date">۱۴۰۳/۰۴/۲۳</span
+            ><span class="ticket-downbox_detail"
+              >دیجی کالا فلان - #1720874158
+            </span>
+          </div>
+        </div>
+        <div class="ticket-box_style">
+          <div class="ticket-box_topbox">
+            <div class="ticket-topbox_iconbox">
+              <div class="ticket-topbox_massagebox">
+                <img src="./assets/images/aa67d72e-31a3-4503-b3fe-77f762035789.png" class="icon-massage" alt="">
+              </div>
+              <span class="icon-massage_number">۴</span>
+            </div>
+            <span class="ticket-topbox_title"
+              >مشکل در بارگذاری گزارش عملکرد کمپین</span
+            ><span class="ticket-topbox_number">#۰۳</span>
+          </div>
+          <div class="ticket-downbox">
+            <span class="ticket-downbox_date">۱۴۰۳/۰۴/۲۳</span
+            ><span class="ticket-downbox_detail"
+              >دیجی کالا فلان - #1720874158
+            </span>
+          </div>
+        </div>
+        <div class="ticket-box_style">
+          <div class="ticket-box_topbox">
+            <div class="ticket-topbox_iconbox">
+              <div class="ticket-topbox_massagebox">
+                <div class="icon-massage"></div>
+              </div>
+              <span class="icon-massage_number">۲</span>
+            </div>
+            <span class="ticket-topbox_title"
+              >مشکل در بارگذاری گزارش عملکرد کمپین</span
+            ><span class="ticket-topbox_number">#۰۱</span>
+          </div>
+          <div class="ticket-downbox">
+            <span class="ticket-downbox_date">۱۴۰۳/۰۴/۲۳</span
+            ><span class="ticket-downbox_detail"
+              >دیجی کالا فلان - #1720874158
+            </span>
+          </div>
+        </div>
+        <div class="ticket-box_background"></div>
+      </div>
+     
+      <div class="ads-continer">
+        <span class="ads-title">تبلیغات من</span>
+        <div class="ads-table">
+          <span class="ads-table-row1">مشاهده جزئیات</span
+          ><span class="ads-table-row2">استیکر تپ </span
+          ><span class="ads-table-row3">کلیک</span
+          ><span class="ads-table-row4"> شرکت کنندگان</span
+          ><span class="ads-table-row5">مقدار کل ویو </span
+          ><span class="ads-table-row6">ایمپرشن</span
+          ><span class="ads-table-row7">وضعیت</span
+          ><span class="ads-table-row8">تاریخ انجام تبلیغ </span
+          ><span class="ads-table-row9">نوع تبلیغ</span
+          ><span class="ads-table-row10">نام تبلیغ</span
+          ><span class="ads-table-row11">#</span>
+        </div>
+        <div class="ads-vector"></div>
+        <div class="ads-content">
+          <span class="ads-content-row1">۰</span><span class="ads-content-row2">۷۴</span
+          ><span class="ads-content-row3">۷۴</span><span class="ads-content-row4">۰.۰K</span
+          ><span class="ads-content-row5">۳۰</span
+          ><span class="ads-content-row6"> ویو استوری</span
+          ><button class="ads-button-primary" onclick="location.href='dev404.ir';">
+            <div class="ads-button-iconbox"><div class="ads-button-icon"></div></div>
+            <span class="ads-button-title">مشاهده جرییات</span></button
+          ><button class="ads-button2">
+            <span class="ads-button2-title">در حال اجرا</span>
+          </button>
+          <div class="ads-content-row7">
+            <span class="ads-content-date">۱۴۰۳/۰۴/۲۳</span
+            ><span class="ads-content-clock">۰۹:۲۰ AM</span>
+          </div>
+          <div class="ads-name-box">
+            <span class="ads-name">دیجی کالا فلان</span
+            ><span class="ads-num-d">#1720874158 </span>
+          </div>
+          <span class="ads-num">۰۱</span>
+        </div>
+        <div class="ads-content">
+          <span class="ads-content-row1">۰</span><span class="ads-content-row2">۷۴</span
+          ><span class="ads-content-row3">۷۴</span><span class="ads-content-row4">۰.۰K</span
+          ><span class="ads-content-row5">۳۰</span
+          ><span class="ads-content-row6"> ویو استوری</span
+          ><button class="ads-button-primary" onclick="location.href='dev404.ir';">
+            <div class="ads-button-iconbox"><div class="ads-button-icon"></div></div>
+            <span class="ads-button-title">مشاهده جرییات</span></button
+          ><button class="frame-89">
+            <span class="done">انجام شد</span>
+          </button>
+          <div class="ads-content-row7">
+            <span class="ads-content-date">۱۴۰۳/۰۴/۲۳</span
+            ><span class="ads-content-clock">۰۹:۲۰ AM</span>
+          </div>
+          <div class="ads-name-box">
+            <span class="ads-name">دیجی کالا فلان</span
+            ><span class="ads-num-d">#1720874158 </span>
+          </div>
+          <span class="ads-num">۰۱</span>
+        </div>
+        <div class="ads-content">
+          <span class="ads-content-row1">۰</span><span class="ads-content-row2">۷۴</span
+          ><span class="ads-content-row3">۷۴</span><span class="ads-content-row4">۰.۰K</span
+          ><span class="ads-content-row5">۳۰</span
+          ><span class="ads-content-row6"> ویو استوری</span
+          ><button class="ads-button-primary" onclick="location.href='dev404.ir';">
+            <div class="ads-button-iconbox"><div class="ads-button-icon"></div></div>
+            <span class="ads-button-title">مشاهده جرییات</span></button
+          ><button class="frame-89">
+            <span class="done">انجام شد</span>
+          </button>
+          <div class="ads-content-row7">
+            <span class="ads-content-date">۱۴۰۳/۰۴/۲۳</span
+            ><span class="ads-content-clock">۰۹:۲۰ AM</span>
+          </div>
+          <div class="ads-name-box">
+            <span class="ads-name">دیجی کالا فلان</span
+            ><span class="ads-num-d">#1720874158 </span>
+          </div>
+          <span class="ads-num">۰۱</span>
+        </div>
+        <div class="ads-content">
+          <span class="ads-content-row1">۰</span><span class="ads-content-row2">۷۴</span
+          ><span class="ads-content-row3">۷۴</span><span class="ads-content-row4">۰.۰K</span
+          ><span class="ads-content-row5">۳۰</span
+          ><span class="ads-content-row6"> ویو استوری</span
+          ><button class="ads-button-primary" onclick="location.href='dev404.ir';">
+            <div class="ads-button-iconbox"><div class="ads-button-icon"></div></div>
+            <span class="ads-button-title">مشاهده جرییات</span></button
+          ><button class="frame-89">
+            <span class="done">انجام شد</span>
+          </button>
+          <div class="ads-content-row7">
+            <span class="ads-content-date">۱۴۰۳/۰۴/۲۳</span
+            ><span class="ads-content-clock">۰۹:۲۰ AM</span>
+          </div>
+          <div class="ads-name-box">
+            <span class="ads-name">دیجی کالا فلان</span
+            ><span class="ads-num-d">#1720874158 </span>
+          </div>
+          <span class="ads-num">۰۱</span>
+        </div>
+      </div>
+    </div>
+      <!--Content-->
+
+<script src="./script.js"></script>
+  </body>
+</html>

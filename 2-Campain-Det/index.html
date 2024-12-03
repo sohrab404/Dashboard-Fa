@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camp-Det</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yekan+Bakh:wght@300;400;600;700&display=swap" />
+    <link rel="stylesheet" href="./dash-menu.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="flex-row-fff">
+      <!--menu-->
+      <div class="rectangle">
+        <div class="image-menu">
+          <a href="#"><div class="finla-farsi"></div></a>
+          <a href="#"><div class="finla-farsi-1"></div></a>
+        </div>
+        <div class="menu-content">
+          <div class="menu-content-all">
+            <span class="menu-text">منو</span>
+            <div class="menu-button">
+              <!--دکمه داشبورد-->
+             <button class="dashboard-button" type="button" onclick="location.href='dev404.ir';">
+                <div class="dashboard-button_span"><span class="twelve">۱۲</span></div>
+                <span class="dashboard-button_text">داشبورد</span>
+                <!--ایکون دکمه داشبورد-->
+                <div class="grid">
+                <img src="./assets/images/dashboard/grid.svg" alt="">
+                </div>
+                <!--ایکون دکمه داشبورد-->
+
+              </button>
+              <!--دکمه داشبورد-->
+              <!--دکمه لیست تبلیغات من-->
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">لیست تبلیغات من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/file.png" class="icon" alt=""></div>
+              </button>
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">لیست بلاک من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/block-list.png" class="icon" alt=""></div>
+              </button>
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">ارسال تیکت</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/send-ticket.png" class="icon" alt=""></div>
+              </button>
+              <div class="dashboard-button3">
+                <button class="span-button" ><span class="two">۲</span></button
+                ><span class="dashboard-button_text2">تیکت های من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/i-tecket.png" class="icon" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="frame-12">
+            <span class="dashboard-button_text2" >تنظیمات</span>
+            <div class="frame-13">
+              <button  class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">تغییر رمز عبور</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/finger.png" class="icon" alt=""></div>
+              </button> 
+              <button  class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">درباره ما</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/about.png" class="icon" alt=""></div>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="space-zone"></div>
+        <div class="profile-dashboard">
+          <button class="profile-logout" type="button" onclick="location.href='#';"></button>
+          <div class="profile-box">
+            <div class="profile-box_text">
+              <span class="human-hosseini">هومن حسنی</span
+              ><span class="logout-text">خروج از حساب</span>
+            </div>
+            <a href="#"><img src="./assets/images/dashboard/prfile-img.png" class="profile-img" ></a>
+          </div>
+        </div>
+      </div>
+      <!--menu-->
+      <!--Header-->
+      <div class="header-container">
+        <div class="header-profile-box">
+          <div class="icon-down" onclick="toggleDropdown()">
+          
+          </div>
+          <div class="header-profile_text">
+            <span class="userName">هومن حسنی</span>
+            <span class="userAccess">مدیر سیستم</span>
+          </div>
+          <a href="#"><img src="./assets/images/header/user-prof.png" alt="" class="profile-img"></a>
+          
+          <div id="dropdownMenu" class="dropdown-content">
+            <a href="#">پروفایل</a>
+            <a href="#">تنظیمات</a>
+            <a href="#">خروج</a>
+          </div>
+         
+        </div>
+
+        <a href="#"><img src="./assets/images/header/qu-icon.png" alt="" class="qu-icon"></a>
+        <div class="header-search-box">
+          <input type="text" class="input frame-input" id="searchInput" placeholder="جستجو..." dir="rtl" style="padding-right: 5rem;" />
+
+          <div class="icon-search"></div>
+        </div>
+      </div>
+
+        <div class="frame-27">
+          <div class="digikala-flan">
+            <span class="digikala-flan-28">دیجی کالا فلان </span
+            ><span class="dash">-</span
+            ><span class="digikala-flan-29"> #1720874158</span
+            ><span class="dash-2a"> </span>
+          </div>
+          <span class="list-item">></span
+          ><span class="list-item-2b">لیست تبلیغات من</span
+          ><span class="list-item-2c">></span><span class="home">خانه</span>
+        </div>
+        <div class="container">
+          <div class="divider"></div>
+          <div class="frame-2d">
+            <div class="user-circle"><div class="user-circle-2e"></div></div>
+            <div class="user-circle-2f"><div class="user-circle-30"></div></div>
+            <div class="user-circle-31"></div>
+            <div class="user-circle-32"><div class="user-circle-33"></div></div>
+            <div class="user-circle-34"></div>
+            <div class="user-circle-35"></div>
+            <div class="user-circle-36"></div>
+          </div>
+          
+          <div class="dropdown-chart">
+
+            <div class="chart2-title">
+            <span class="chart2-text">آمار</span
+            ><span class="chart2-text2">میزان کل ویو ها</span>
+          </div>
+          <div class="chart-dropdown-icon"></div>
+        
+        </div>
+        <div class="dropdown-selector" style="display: none;">
+
+          <button class="Button">
+            <span class="button-text">کل ویو</span>
+            <div class="icon1-box"><div class="icon1"></div></div>
+          </button>
+          <button class="Button">
+            <span class="button-text">کلیک</span>
+              <div class="icon2-box"><div class="icon2"></div></div>
+            
+          </button>
+          <button class="Button">
+            <span class="button-text">استیکر تپ </span>
+            <div class="icon3-box"><div class="icon3"></div></div>
+          </button>
+        </div>
+          <span class="number">۳۰۰</span>
+          <div class="line-39"></div>
+          <div class="frame-3a">
+            <div class="bar"></div>
+            <div class="bar-3b"></div>
+            <div class="bar-3c"></div>
+            <div class="bar-3d"></div>
+            <div class="bar-3e"></div>
+            <div class="bar-3f"></div>
+            <div class="bar-40"></div>
+          </div>
+          <span class="number-41">۲۰۰</span>
+          <div class="line-42"></div>
+          <span class="number-43">۱۰۰</span>
+          <div class="line-44"></div>
+          <span class="number-45">۰</span>
+          <div class="line-46"></div>
+        </div>
+        <div class="frame-47">
+          <div class="frame-48">
+            <div class="frame-49">
+              <button class="frame-4a">
+                <span class="done">انجام شده</span>
+              </button>
+              <div class="frame-4b">
+                <span class="hash">#1720874158 </span
+                ><span class="dash-4c">-</span
+                ><span class="company">دیجی کالا فلان</span>
+              </div>
+            </div>
+            <div class="frame-4d">
+              <div class="frame-4e">
+                <div class="frame-4f">
+                  <div class="frame-50">
+                    <span class="number-51">تعداد کل ایمپرشن</span
+                    ><span class="number-52">۱.۵۶K</span>
+                  </div>
+                  <div class="icon-53"></div>
+                </div>
+                <div class="lightning-filled"></div>
+              </div>
+              <div class="frame-54">
+                <div class="frame-55">
+                  <div class="frame-56">
+                    <span class="number-57">تعداد شرکت کنندگان</span
+                    ><span class="number-58">۱۶</span>
+                  </div>
+                  <div class="users-profiles"><div class="icon-59"></div></div>
+                </div>
+                <div class="frame-5a">
+                  <button class="frame-5b">
+                    <div class="pointing"></div>
+                    <span class="number-5c">۸۵</span></button
+                  ><span class="frame-5d">تعداد کل استیکر تپ</span>
+                </div>
+              </div>
+              <div class="frame-5e">
+                <div class="frame-5f">
+                  <div class="number-60">
+                    <span class="number-61">میزان کل ویو</span
+                    ><span class="number-62">۲۱K</span>
+                  </div>
+                  <div class="eye-open"><div class="icon-63"></div></div>
+                </div>
+                <div class="frame-64">
+                  <button class="frame-65">
+                    <div class="pointing-66"></div>
+                    <span class="number-67">۴۰</span></button
+                  ><span class="frame-68">تعداد کل کلیک</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search-69"></div>
+        </div>
+        <button class="button-primary">
+          <div class="frame-6a">
+            <div class="column-horizontal"><div class="icon-6b"></div></div>
+          </div>
+          <div class="frame-6c">
+            <div class="layout-bottom"><div class="icon-6d"></div></div>
+          </div>
+        </button>
+        <div class="participants-list">
+          <span class="advertising-list-digikala"
+            >لیست شرکت کنندگان در تبلیغ </span
+          ><span class="source-music">دیجی کالا فلان #1715094801</span>
+        </div>
+        <div class="frame-6e">
+          <span class="source-music-6f">منبع همه موزیکا اینجاست👇</span>
+          <div class="frame-70">
+            <span class="date">۱۴۰۳/۰۴/۲۳</span
+            ><span class="date-separator">-</span
+            ><span class="time">۰۹:۲۰ AM</span>
+            <div class="calendar"></div>
+          </div>
+          <div class="frame-71">
+            <div class="frame-72">
+              <span class="members-count">۱.۰۵۳.۶۴۸</span>
+              <div class="users-profiles-73"><div class="icon-74"></div></div>
+              <span class="members-count-75">تعداد اعضا</span>
+            </div>
+            <div class="frame-76">
+              <span class="views-count">۱۳.۷۸۹</span
+              ><span class="views-count-77">کل ویو</span>
+              <div class="eye-open-78"><div class="icon-79"></div></div>
+            </div>
+            <div class="frame-7a">
+              <span class="impressions">۱۰.۹۸۶</span
+              ><span class="impressions-7b">ایمپرشن</span>
+              <div class="lightning-filled-7c"><div class="icon-7d"></div></div>
+            </div>
+            <div class="frame-7e">
+              <span class="reach">۵.۳۴۲</span><span class="reach-7f">ریچ</span>
+              <div class="target"><div class="icon-80"></div></div>
+            </div>
+            <div class="frame-81">
+              <span class="clicks">۳.۵۴۳</span
+              ><span class="clicks-82">کلیک</span>
+              <div class="frame-83">
+                <div class="pointing-84"><div class="shape"></div></div>
+              </div>
+            </div>
+            <div class="frame-85">
+              <span class="stickers-tap">۳.۵۴۳</span
+              ><span class="stickers-tap-86">استیکر تپ </span>
+              <div class="tag"><div class="icon-87"></div></div>
+            </div>
+          </div>
+          <button class="frame-88">
+            <span class="view-final-shot">مشاهده شات نهایی</span>
+            <div class="image"><div class="icon-89"></div></div>
+          </button>
+          <div class="group-8a"></div>
+        </div>
+        <div class="frame-8b">
+          <span class="artists-clips">کلیپ هنرمندان</span>
+          <div class="frame-8c">
+            <span class="date-8d">۱۴۰۳/۰۴/۲۳</span
+            ><span class="date-separator-8e">-</span
+            ><span class="time-8f">۰۹:۲۰ AM</span>
+            <div class="calendar-90"></div>
+          </div>
+          <div class="frame-91">
+            <div class="frame-92">
+              <span class="members-count-93">۱.۰۵۳.۶۴۸</span
+              ><span class="users-profiles-94">تعداد اعضا</span>
+              <div class="icon-95"><div class="frame-96"></div></div>
+            </div>
+            <div class="views-count-97">
+              <span class="views-count-98">۱۳.۷۸۹</span
+              ><span class="eye-open-99">کل ویو</span>
+              <div class="icon-9a"><div class="frame-9b"></div></div>
+            </div>
+            <div class="impressions-9c">
+              <span class="impressions-9d">۱۰.۹۸۶</span
+              ><span class="lightning-filled-9e">ایمپرشن</span>
+              <div class="icon-9f"><div class="frame-a0"></div></div>
+            </div>
+            <div class="reach-a1">
+              <span class="reach-a2">۵.۳۴۲</span
+              ><span class="target-a3">ریچ</span>
+              <div class="section-1a"><div class="icon-a4"></div></div>
+            </div>
+            <div class="frame-a5">
+              <span class="span">۳.۵۴۳</span><span class="click">کلیک</span>
+              <div class="frame-a6">
+                <div class="pointing-a7"><div class="shape-a8"></div></div>
+              </div>
+            </div>
+            <div class="frame-a9">
+              <span class="span-aa">۳.۵۴۳</span
+              ><span class="sticker-tap">استیکر تپ </span>
+              <div class="tag-ab"><div class="icon-ac"></div></div>
+            </div>
+          </div>
+          <button class="frame-ad">
+            <span class="view-final-shot-ae">مشاهده شات نهایی</span>
+            <div class="image-af"><div class="icon-b0"></div></div>
+          </button>
+          <div class="group-b1"></div>
+        </div>
+        <div class="frame-b2">
+          <span class="muzic-toop">Muzic.Toop | موزیک توپ ⏯</span>
+          <div class="frame-b3">
+            <span class="date-b4">۱۴۰۳/۰۴/۲۳</span><span class="dash-b5">-</span
+            ><span class="time-b6">۰۹:۲۰ AM</span>
+            <div class="calendar-b7"></div>
+          </div>
+          <div class="frame-b8">
+            <div class="frame-b9">
+              <span class="members-count-ba">۱.۰۵۳.۶۴۸</span
+              ><span class="users">تعداد اعضا</span>
+              <div class="icon-bb"><div class="frame-bc"></div></div>
+            </div>
+            <div class="views-count-bd">
+              <span class="impressions-be">۱۳.۷۸۹</span
+              ><span class="lightning">کل ویو</span>
+              <div class="icon-bf"><div class="frame-c0"></div></div>
+            </div>
+            <div class="reach-c1">
+              <span class="target-c2">۱۰.۹۸۶</span
+              ><span class="icon-c3">ایمپرشن</span>
+              <div class="frame-c4"><div class="click-c5"></div></div>
+            </div>
+            <div class="frame-c6">
+              <span class="span-c7">۵.۳۴۲</span><span class="rich">ریچ</span>
+              <div class="target-c8"><div class="icon-c9"></div></div>
+            </div>
+            <div class="frame-ca">
+              <span class="span-cb">۳.۵۴۳</span
+              ><span class="click-cc">کلیک</span>
+              <div class="frame-cd">
+                <div class="pointing-ce"><div class="shape-cf"></div></div>
+              </div>
+            </div>
+            <div class="frame-d0">
+              <span class="span-d1">۳.۵۴۳</span
+              ><span class="sticker-tap-d2">استیکر تپ </span>
+              <div class="tag-d3"><div class="icon-d4"></div></div>
+            </div>
+          </div>
+          <button class="frame-d5">
+            <span class="view-final-shot-d6">مشاهده شات نهایی</span>
+            <div class="image-d7"><div class="icon-d8"></div></div>
+          </button>
+          <div class="group-d9"></div>
+        </div>
+        <div class="frame-da">
+          <span class="avamuzix-official">Avamuzix™ official</span>
+          <div class="frame-db">
+            <span class="date-dc">۱۴۰۳/۰۴/۲۳</span><span class="dash-dd">-</span
+            ><span class="time-de">۰۹:۲۰ AM</span>
+            <div class="calendar-df"></div>
+          </div>
+          <div class="frame-e0">
+            <div class="frame-e1">
+              <span class="members-count-e2">۱.۰۵۳.۶۴۸</span
+              ><span class="users-e3">تعداد اعضا</span>
+              <div class="icon-e4"><div class="frame-e5"></div></div>
+            </div>
+            <div class="views-count-e6">
+              <span class="impressions-e7">۱۳.۷۸۹</span
+              ><span class="lightning-e8">کل ویو</span>
+              <div class="icon-e9"><div class="frame-ea"></div></div>
+            </div>
+            <div class="box-24">
+              <span class="impression">۱۰.۹۸۶</span
+              ><span class="lightning-filled-eb">ایمپرشن</span>
+              <div class="icon-ec"><div class="frame-ed"></div></div>
+            </div>
+            <div class="frame-ee">
+              <span class="rich-ef">۵.۳۴۲</span
+              ><span class="target-f0">ریچ</span>
+              <div class="icon-f1"><div class="frame-f2"></div></div>
+            </div>
+            <div class="frame-f3">
+              <span class="click-f4">۳.۵۴۳</span
+              ><span class="frame-f5">کلیک</span>
+              <div class="pointing-f6">
+                <div class="shape-f7"><div class="frame-f8"></div></div>
+              </div>
+            </div>
+            <div class="sticker-tap-f9">
+              <span class="tag-fa">۳.۵۴۳</span
+              ><span class="icon-fb">استیکر تپ </span>
+              <div class="frame-fc"><div class="final-shot"></div></div>
+            </div>
+          </div>
+          <button class="image-fd">
+            <span class="icon-fe">مشاهده شات نهایی</span>
+            <div class="group-ff"><div class="flex-row-eb"></div></div>
+          </button>
+          <div class="frame-100"></div>
+        </div>
+      </div>
+      <div class="source">
+        <div class="frame-101">
+          <span class="calendar-102">منبع همه موزیکا اینجاست👇</span>
+          <div class="frame-103">
+            <span class="frame-104">۱۴۰۳/۰۴/۲۳</span
+            ><span class="users-profiles-105">-</span
+            ><span class="icon-106">۰۹:۲۰ AM</span>
+            <div class="frame-107"></div>
+          </div>
+          <div class="total-views">
+            <div class="icon-108">
+              <span class="frame-109">۱.۰۵۳.۶۴۸</span
+              ><span class="impression-10a">تعداد اعضا</span>
+              <div class="lightning-filled-10b">
+                <div class="icon-10c"></div>
+              </div>
+            </div>
+            <div class="frame-10d">
+              <span class="frame-10e">۱۳.۷۸۹</span
+              ><span class="rich-10f">کل ویو</span>
+              <div class="target-110"><div class="icon-111"></div></div>
+            </div>
+            <div class="frame-112">
+              <span class="click-113">۱۰.۹۸۶</span
+              ><span class="frame-114">ایمپرشن</span>
+              <div class="pointing-115"><div class="shape-116"></div></div>
+            </div>
+            <div class="frame-117">
+              <span class="sticker-tap-118">۵.۳۴۲</span
+              ><span class="tag-119">ریچ</span>
+              <div class="icon-11a"><div class="frame-11b"></div></div>
+            </div>
+            <div class="final-shot-11c">
+              <span class="image-11d">۳.۵۴۳</span
+              ><span class="icon-11e">کلیک</span>
+              <div class="group-11f">
+                <div class="frame-120">
+                  <div class="artists-clips-121"></div>
+                </div>
+              </div>
+            </div>
+            <div class="frame-122">
+              <span class="calendar-123">۳.۵۴۳</span
+              ><span class="frame-124">استیکر تپ </span>
+              <div class="frame-125"><div class="total-views-126"></div></div>
+            </div>
+          </div>
+          <div class="box-2b">
+            <span class="text-83">مشاهده شات نهایی</span>
+            <div class="group-1f"><div class="img-31"></div></div>
+          </div>
+          <div class="img-32"></div>
+        </div>
+        <div class="section-27">
+          <span class="text-84">کلیپ هنرمندان</span>
+          <div class="section-28">
+            <span class="text-85">۱۴۰۳/۰۴/۲۳</span><span class="text-86">-</span
+            ><span class="text-87">۰۹:۲۰ AM</span>
+            <div class="img-33"></div>
+          </div>
+          <div class="section-29">
+            <div class="box-2c">
+              <span class="text-88">۱.۰۵۳.۶۴۸</span
+              ><span class="members-count-127">تعداد اعضا</span>
+              <div class="users-profiles-128"><div class="icon-129"></div></div>
+            </div>
+            <div class="frame-12a">
+              <span class="number-13-789">۱۳.۷۸۹</span
+              ><span class="total-views-12b">کل ویو</span>
+              <div class="eye-open-12c"><div class="icon-12d"></div></div>
+            </div>
+            <div class="frame-12e">
+              <span class="number-10-986">۱۰.۹۸۶</span
+              ><span class="impression-12f">ایمپرشن</span>
+              <div class="lightning-filled-130">
+                <div class="icon-131"></div>
+              </div>
+            </div>
+            <div class="frame-132">
+              <span class="number-5-342">۵.۳۴۲</span
+              ><span class="rich-133">ریچ</span>
+              <div class="target-134"><div class="icon-135"></div></div>
+            </div>
+            <div class="frame-136">
+              <span class="number-3-543">۳.۵۴۳</span
+              ><span class="click-137">کلیک</span>
+              <div class="frame-138">
+                <div class="pointing-139"><div class="shape-13a"></div></div>
+              </div>
+            </div>
+            <div class="frame-13b">
+              <span class="span-3543">۳.۵۴۳</span
+              ><span class="span-sticker-tap">استیکر تپ </span>
+              <div class="div-tag"><div class="div-icon"></div></div>
+            </div>
+          </div>
+          <div class="div-frame">
+            <span class="span-view-final-shot">مشاهده شات نهایی</span>
+            <div class="div-image"><div class="div-icon-13c"></div></div>
+          </div>
+          <div class="div-group"></div>
+        </div>
+        <div class="div-frame-13d">
+          <span class="span-muzic-toop">Muzic.Toop | موزیک توپ ⏯</span>
+          <div class="div-frame-13e">
+            <span class="span-1403-04-23">۱۴۰۳/۰۴/۲۳</span
+            ><span class="span-dash">-</span
+            ><span class="span-0920-am">۰۹:۲۰ AM</span>
+            <div class="div-calendar"></div>
+          </div>
+          <div class="div-frame-13f">
+            <div class="div-frame-140">
+              <span class="span-1053-648">۱.۰۵۳.۶۴۸</span
+              ><span class="span-members-count">تعداد اعضا</span>
+              <div class="div-users-profiles">
+                <div class="div-icon-141"></div>
+              </div>
+            </div>
+            <div class="div-frame-142">
+              <span class="span-13789">۱۳.۷۸۹</span
+              ><span class="span-total-views">کل ویو</span>
+              <div class="eye-open-143"><div class="icon-144"></div></div>
+            </div>
+            <div class="frame-145">
+              <span class="number-146">۱۰.۹۸۶</span
+              ><span class="impression-147">ایمپرشن</span>
+              <div class="lightning-filled-148">
+                <div class="icon-149"></div>
+              </div>
+            </div>
+            <div class="frame-14a">
+              <span class="number-14b">۵.۳۴۲</span
+              ><span class="rich-14c">ریچ</span>
+              <div class="target-14d"><div class="icon-14e"></div></div>
+            </div>
+            <div class="frame-14f">
+              <span class="number-150">۳.۵۴۳</span
+              ><span class="click-151">کلیک</span>
+              <div class="frame-152">
+                <div class="pointing-153"><div class="shape-154"></div></div>
+              </div>
+            </div>
+            <div class="frame-155">
+              <span class="number-156">۳.۵۴۳</span
+              ><span class="sticker-tap-157">استیکر تپ </span>
+              <div class="tag-158"><div class="icon-159"></div></div>
+            </div>
+          </div>
+          <div class="frame-15a">
+            <span class="view-final-shot-15b">مشاهده شات نهایی</span>
+            <div class="image-15c"><div class="icon-15d"></div></div>
+          </div>
+          <div class="group-15e"></div>
+        </div>
+        <div class="frame-15f">
+          <span class="avamuzix-official-160">Avamuzix™ official</span>
+          <div class="frame-161">
+            <span class="date-time">۱۴۰۳/۰۴/۲۳</span
+            ><span class="dash-162">-</span
+            ><span class="time-163">۰۹:۲۰ AM</span>
+            <div class="calendar-164"></div>
+          </div>
+          <div class="frame-165">
+            <div class="frame-166">
+              <span class="members-count-167">۱.۰۵۳.۶۴۸</span
+              ><span class="total-members">تعداد اعضا</span>
+              <div class="users-profiles-168"><div class="icon-169"></div></div>
+            </div>
+            <div class="frame-16a">
+              <span class="total-views-16b">۱۳.۷۸۹</span
+              ><span class="total-views-label">کل ویو</span>
+              <div class="eye-open-16c"><div class="icon-16d"></div></div>
+            </div>
+            <div class="frame-16e">
+              <span class="impressions-16f">۱۰.۹۸۶</span
+              ><span class="impressions-label">ایمپرشن</span>
+              <div class="lightning-filled-170">
+                <div class="icon-171"></div>
+              </div>
+            </div>
+            <div class="frame-172">
+              <span class="number-173">۵.۳۴۲</span><span class="text">ریچ</span>
+              <div class="target-174"><div class="icon-175"></div></div>
+            </div>
+            <div class="frame-176">
+              <span class="number-177">۳.۵۴۳</span
+              ><span class="text-178">کلیک</span>
+              <div class="frame-179">
+                <div class="pointing-17a"><div class="shape-17b"></div></div>
+              </div>
+            </div>
+            <div class="frame-17c">
+              <span class="number-17d">۳.۵۴۳</span
+              ><span class="sticker-tap-17e">استیکر تپ </span>
+              <div class="tag-17f"><div class="icon-180"></div></div>
+            </div>
+          </div>
+          <div class="frame-181">
+            <span class="view-final-shot-182">مشاهده شات نهایی</span>
+            <div class="image-183"><div class="icon-184"></div></div>
+          </div>
+          <div class="group-185"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

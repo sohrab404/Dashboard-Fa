@@ -1,0 +1,371 @@
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.input-1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+border: none;
+font-family: Yekan Bakh, var(--default-font-family);
+padding: 10px;
+}
+.create-ticket {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 18px;
+  position: absolute;
+  width: 122px;
+  height: 22px;
+  top: 130px;
+  right: 322px;
+}
+.greater-than {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 63px;
+  height: 22px;
+  color: #1b1b1b;
+  font-family: Yekan Bakh, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: right;
+  white-space: nowrap;
+  letter-spacing: -0.28px;
+
+}
+.greater-than-26 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 22px;
+  color: #8f8f8f;
+  font-family: Yekan Bakh, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.28px;
+  transform: rotate(180deg);
+
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 24px;
+  height: 22px;
+  color: #8f8f8f;
+  font-family: Yekan Bakh, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: right;
+  white-space: nowrap;
+ 
+}
+.frame-27 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 16px;
+  position: absolute;
+  width: 1094px;
+  height: 336px;
+  top: 175px;
+  right: 322px;
+  padding: 24px 24px 24px 24px;
+  background: #f9f9f9;
+
+  overflow: hidden;
+  border-radius: 13px;
+}
+.frame-28 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  gap: 24px;
+  position: relative;
+  min-width: 0;
+
+}
+.frame-29 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 12px;
+  position: relative;
+
+}
+.frame-2a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+
+}
+.create-ticket-2b {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 72px;
+  height: 25px;
+  color: #1b1b1b;
+  font-family: Yekan Bakh, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24.8px;
+  text-align: right;
+  white-space: nowrap;
+  letter-spacing: -0.32px;
+
+}
+.frame-2c {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 180px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  background: #e9eaf0;
+
+  overflow: hidden;
+  border-radius: 9px;
+}
+.icon-2d {
+  flex-shrink: 0;
+  position: relative;
+  width: 10.695px;
+  height: 5.482px;
+  background: url(./assets/images/00a867d2-a8c2-48c8-bea3-0a6c7c95ab0f.png)
+    no-repeat center;
+  background-size: cover;
+
+}
+.expense {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 22px;
+  color: #86848b;
+  font-family: Yekan Bakh, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.7px;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+.select-advertisement {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 73px;
+  height: 22px;
+  color: #8f8f8f;
+  font-family: Yekan Bakh, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: right;
+  white-space: nowrap;
+  letter-spacing: -0.28px;
+
+}
+.frame-2e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 32px;
+  position: relative;
+  height: 128px;
+
+  overflow: hidden;
+  border-radius: 9px;
+}
+.frame-2f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  gap: 17px;
+  position: relative;
+  min-height: 0;
+  padding: 19px 24px 19px 24px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.ticket-text {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 23px;
+  color: #7387a3;
+  font-family: Yekan Bakh, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 23px;
+  text-align: left;
+  white-space: nowrap;
+
+}
+.frame-input-30 {
+  flex-shrink: 0;
+  position: absolute;
+  width: 1046px;
+  height: 128px;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none;
+
+  outline: none;
+}
+.frame-31 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  width: 106px;
+  height: 35px;
+  padding: 6px 24px 6px 24px;
+  cursor: pointer;
+  background: #37619d;
+  border: none;
+left: 32px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.submit-ticket {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 58px;
+  height: 22px;
+  color: #ffffff;
+  font-family: Yekan Bakh, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: right;
+  white-space: nowrap;
+
+}
+
+.chart-dropdown-menu {
+  display: none; /* به طور پیش‌فرض مخفی است */
+  position: absolute; /* برای قرار دادن منو زیر باکس */
+
+  border: 1px solid #ccc; /* مرز منو */
+  background-color: #fff; /* رنگ پس‌زمینه منو */
+  z-index: 1000; /* بالاتر از دیگر عناصر */
+  border-radius: 5px; /* گوشه‌های گرد */
+  top: 80px;
+  padding: 0px 12px;
+  right: 120px;
+}
+
+.chart-dropdown-menu ul {
+  list-style-type: none; /* حذف نقاط لیست */
+  padding: 1px; /* حذف فاصله داخلی */
+  margin: 9px; /* حذف فاصله خارجی */
+  z-index: 999;
+}
+
+.chart-dropdown-menu li {
+  padding: 10px; /* فاصله داخلی برای گزینه‌ها */
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.chart-dropdown-menu li:hover {
+  background-color: #f0f0f0; /* رنگ پس‌زمینه هنگام هاور */
+  z-index: 999;
+}

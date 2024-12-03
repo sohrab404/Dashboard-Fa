@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket</title>
+    <link rel="stylesheet" href="../rest.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yekan+Bakh:wght@300;400;600;700&display=swap" />
+  
+    <link rel="stylesheet" href="dash-menu.css">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header.css">
+  </head>
+  <body>
+    
+    <div class="main-container">
+      <!--menu-->
+      <div class="rectangle">
+        <div class="image-menu">
+          <a href="#"><div class="finla-farsi"></div></a>
+          <a href="#"><div class="finla-farsi-1"></div></a>
+        </div>
+        <div class="menu-content">
+          <div class="menu-content-all">
+            <span class="menu-text">منو</span>
+            <div class="menu-button">
+              <!--دکمه داشبورد-->
+             <button class="dashboard-button" type="button" onclick="location.href='dev404.ir';">
+                <div class="dashboard-button_span"><span class="twelve">۱۲</span></div>
+                <span class="dashboard-button_text">داشبورد</span>
+                <!--ایکون دکمه داشبورد-->
+                <div class="grid">
+                <img src="./assets/images/dashboard/grid.svg" alt="">
+                </div>
+                <!--ایکون دکمه داشبورد-->
+
+              </button>
+              <!--دکمه داشبورد-->
+              <!--دکمه لیست تبلیغات من-->
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">لیست تبلیغات من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/file.png" class="icon" alt=""></div>
+              </button>
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">لیست بلاک من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/block-list.png" class="icon" alt=""></div>
+              </button>
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">ارسال تیکت</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/send-ticket.png" class="icon" alt=""></div>
+              </button>
+              <div class="dashboard-button3">
+                <button class="span-button" ><span class="two">۲</span></button
+                ><span class="dashboard-button_text2">تیکت های من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/i-tecket.png" class="icon" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="frame-12">
+            <span class="dashboard-button_text2" >تنظیمات</span>
+            <div class="frame-13">
+              <button  class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">تغییر رمز عبور</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/finger.png" class="icon" alt=""></div>
+              </button> 
+              <button  class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">درباره ما</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/about.png" class="icon" alt=""></div>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="space-zone"></div>
+        <div class="profile-dashboard">
+          <button class="profile-logout" type="button" onclick="location.href='#';"></button>
+          <div class="profile-box">
+            <div class="profile-box_text">
+              <span class="human-hosseini">هومن حسنی</span
+              ><span class="logout-text">خروج از حساب</span>
+            </div>
+            <a href="#"><img src="./assets/images/dashboard/prfile-img.png" class="profile-img" ></a>
+          </div>
+        </div>
+      </div>
+      <!--menu-->
+      <!--Header-->
+      <div class="header-container">
+        <div class="header-profile-box">
+          <div class="icon-down" onclick="toggleDropdown()">
+          
+          </div>
+          <div class="header-profile_text">
+            <span class="userName">هومن حسنی</span>
+            <span class="userAccess">مدیر سیستم</span>
+          </div>
+          <a href="#"><img src="./assets/images/header/user-prof.png" alt="" class="profile-img"></a>
+          
+          <div id="dropdownMenu" class="dropdown-content">
+            <a href="#">پروفایل</a>
+            <a href="#">تنظیمات</a>
+            <a href="#">خروج</a>
+          </div>
+         
+        </div>
+
+        <a href="#"><img src="./assets/images/header/qu-icon.png" alt="" class="qu-icon"></a>
+        <div class="header-search-box">
+          <input type="text" class="input frame-input" id="searchInput" placeholder="جستجو..." dir="rtl" style="padding-right: 5rem;" />
+
+          <div class="icon-search"></div>
+        </div>
+      </div>
+
+       <!--Header-->
+       <!--Content-->
+      <div class="broadcamp">
+        <span class="broadcamp-to">آخرین تیکت ها</span
+        ><span class="broadcamp-arrow">></span><span class="broadcamp-main">خانه</span>
+      </div>
+      <div class="tickets-container">
+        <span class="tickets-title">آخرین تیکت ها</span>
+        <div class="tickets-content"></div>
+        <button class="primary-button">
+          <div class="primary-button-iconbox">
+            <div class="primary-button-iconbox_shape"><div class="icon-t"></div></div>
+          </div>
+          <span class="primary-button-endticket">بستن تیکت</span>
+          </button
+        ><span class="ticket"
+          >#۰۱ - مشکل در بارگذاری گزارش عملکرد کمپین</span
+        >
+        <div class="tickets-active-box">
+          <div class="tickets-active-row">
+            <span class="ticket-inactive">غیر فعال (16)</span
+            ><span class="ticket-active">فعال (۴)</span>
+          </div>
+          <div class="divider">
+            <div class="line-d1"></div>
+            <div class="line-d2"></div>
+          </div>
+        </div>
+        <div class="ticket-detail">
+          <button class="ticket-serial">
+            <span class="ticket-number"> #1720874158 </span></button
+          ><span class="ticket-discrip">دیجی کالا فلان:</span>
+        </div>
+<div class="flex-container">
+ <div class="ticket-content">
+  <div class="ticket-content-title">
+    <span class="ticket-content-description"
+      >مشکل در بارگذاری گزارش عملکرد کمپین</span
+    ><span class="ticket-content-num">#۰۱</span>
+  </div>
+  <div class="ticket-content-datebox">
+    <span class="ticket-content-date">۱۴۰۳/۰۴/۲۳</span>
+    <div class="ticket-content-detail_left">
+      <div class="ticket-content-detail_iconbox">
+        <div class="massage-icon">
+          <div class="i-massage"></div>
+        </div>
+        <span class="i-massage-num">۲</span>
+      </div>
+      <div class="ticket-content-detail_right">
+        <button class="ticket-content-detail_serialbox">
+          <span class="ticket-content-detail_serial"> #1720874158 </span></button
+        ><span class="ticket-content-detail_serialtitle">دیجی کالا فلان:</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ticket-content">
+  <div class="ticket-content-title">
+    <span class="ticket-content-description"
+      >مشکل در بارگذاری گزارش عملکرد کمپین</span
+    ><span class="ticket-content-num">#۰۱</span>
+  </div>
+  <div class="ticket-content-datebox">
+    <span class="ticket-content-date">۱۴۰۳/۰۴/۲۳</span>
+    <div class="ticket-content-detail_left">
+      <div class="ticket-content-detail_iconbox">
+        <div class="massage-icon">
+          <div class="i-massage"></div>
+        </div>
+        <span class="i-massage-num">۲</span>
+      </div>
+      <div class="ticket-content-detail_right">
+        <button class="ticket-content-detail_serialbox">
+          <span class="ticket-content-detail_serial"> #1720874158 </span></button
+        ><span class="ticket-content-detail_serialtitle">دیجی کالا فلان:</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ticket-content">
+  <div class="ticket-content-title">
+    <span class="ticket-content-description"
+      >مشکل در بارگذاری گزارش عملکرد کمپین</span
+    ><span class="ticket-content-num">#۰۱</span>
+  </div>
+  <div class="ticket-content-datebox">
+    <span class="ticket-content-date">۱۴۰۳/۰۴/۲۳</span>
+    <div class="ticket-content-detail_left">
+      <div class="ticket-content-detail_iconbox">
+        <div class="massage-icon">
+          <div class="i-massage"></div>
+        </div>
+        <span class="i-massage-num">۲</span>
+      </div>
+      <div class="ticket-content-detail_right">
+        <button class="ticket-content-detail_serialbox">
+          <span class="ticket-content-detail_serial"> #1720874158 </span></button
+        ><span class="ticket-content-detail_serialtitle">دیجی کالا فلان:</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ticket-content">
+  <div class="ticket-content-title">
+    <span class="ticket-content-description"
+      >مشکل در بارگذاری گزارش عملکرد کمپین</span
+    ><span class="ticket-content-num">#۰۱</span>
+  </div>
+  <div class="ticket-content-datebox">
+    <span class="ticket-content-date">۱۴۰۳/۰۴/۲۳</span>
+    <div class="ticket-content-detail_left">
+      <div class="ticket-content-detail_iconbox">
+        <div class="massage-icon">
+          <div class="i-massage"></div>
+        </div>
+        <span class="i-massage-num">۲</span>
+      </div>
+      <div class="ticket-content-detail_right">
+        <button class="ticket-content-detail_serialbox">
+          <span class="ticket-content-detail_serial"> #1720874158 </span></button
+        ><span class="ticket-content-detail_serialtitle">دیجی کالا فلان:</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+        <div class="user-ticket">  
+          <div class="user-ticketbox">
+            <div class="user-ticketbox_right">
+              <span class="user-ticketbox-date">۱۴۰۳/۰۴/۲۳ - ۰۹:۲۰ AM</span
+              ><span class="username">هومن حسنی</span>
+            </div>
+            <div class="userprofile"></div>
+          </div>
+          <span class="user-ticket-text"
+            >سلام تیم پشتیبانی عزیز،<br /><br />من هنگام تلاش برای بارگذاری
+            گزارش عملکرد کمپین با مشکلی مواجه شده‌ام. با کلیک بر روی گزینه
+            "نمایش گزارش" در داشبورد، صفحه به درستی بارگذاری نمی‌شود و تنها
+            پیامی مبنی بر "خطای اتصال" نمایش داده می‌شود.<br /><br />با تشکر،
+            [نام شما]</span
+          >
+        </div>
+        <div class="admin-ticket">
+          <div class="admin-ticket-detail">
+            <div class="admin-ticket-detail-box">
+              <span class="admin-ticket-date">۱۴۰۳/۰۴/۲۳ - ۰۹:۲۰ AM</span
+              ><span class="admin">پشتیبانی</span>
+            </div>
+            <div class="admin-profile"></div>
+          </div>
+          <span class="admin-text"
+            >سلام هومن عزیز،<br /><br />از اینکه مشکل را با ما در میان گذاشتید،
+            متشکریم و بابت ناراحتی پیش‌آمده عذرخواهی می‌کنیم.<br /><br />مشکل
+            شما بررسی شد و به نظر می‌رسد این اختلال به دلیل [توضیح مختصر علت
+            احتمالی، مثل به‌روزرسانی سرور یا مشکل فنی موقت] رخ داده است. تیم فنی
+            ما در حال حاضر در حال کار بر روی رفع این مسئله است و انتظار داریم تا
+            [تاریخ و زمان مورد نظر] این مشکل برطرف شود.<br /><br />لطفاً کش
+            مرورگر خود را پاک کرده و مجدداً تلاش کنید. همچنین، پیشنهاد می‌کنیم
+            که در صورت امکان از یک مرورگر دیگر استفاده کنید تا اطمینان حاصل شود
+            مشکل از مرورگر نیست.</span
+          >
+        </div>
+
+        <button class="frame-7e">
+          <span class="create-ticket">ایجاد تیکت</span>
+          <div class="plus"><div class="icon-7f"></div></div>
+        </button>
+        <div class="frame-80">
+          <button class="send-massage-b"><span class="send">ارسال</span></button
+          ><input type="text" class="send-massage-input " id="replay" placeholder="نوشتن پاسخ..." dir="rtl"  />
+        </div>
+      </div>
+    </div>
+ <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,231 @@
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+
+.main-container {
+  overflow: hidden;
+  position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+}
+.frame-input{
+  font-family: Yekan Bakh, var(--default-font-family);
+}
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.flex-row-fff {
+  position: absolute;
+  height: 953px;
+  right: 24px;
+  left: 24px;
+  z-index: 74;
+}
+.frame-input{
+  font-family: Yekan Bakh, var(--default-font-family);
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 40px;
+    position: absolute;
+    width: 1094px;
+    height: 61px;
+    top: 38px;
+    left: 24px;
+    z-index: 60;
+  }
+  .header-profile-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 11px;
+    position: relative;
+    width: 185px;
+    z-index: 61;
+  }
+  
+  .icon-down {
+    position: relative;
+    width: 11.5px;
+    height: 6.5px;
+    margin: 6.75px 0 0 4.25px;
+    background: url(./assets/images/header/down-icon.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 63;
+    cursor: pointer;
+  }
+
+  .header-profile_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    width: 106px;
+    z-index: 64;
+  }
+  .userName {
+    position: relative;
+    min-width: 0;
+    height: 25px;
+    color: #3b3b3d;
+    font-family: Yekan Bakh, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: right;
+    z-index: 65;
+  }
+  .userAccess {
+    position: relative;
+    min-width: 0;
+    height: 17px;
+    color: #a4a2af;
+    font-family: Yekan Bakh, var(--default-font-family);
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 66;
+  }
+  .profile-img{
+    flex-shrink: 0;
+    position: relative;
+    width: 37px;
+    height: 37px;
+    background: no-repeat center;
+    background-size: cover;
+    z-index: 67;
+    border-radius: 50%;
+  }
+  
+  .qu-icon {
+    position: relative;
+    width: 19.998px;
+    height: 19.998px;
+    margin: 0px 0 0 0px;
+    background: no-repeat center;
+    background-size: 100% 100%;
+    z-index: 69;
+  }
+  .header-search-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 17px;
+    position: relative;
+    min-width: 0;
+    height: 61px;
+    padding: 19px 31px 19px 31px;
+    background: #f9f9f9;
+    z-index: 70;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .frame-input {
+    flex-shrink: 0;
+    position: absolute;
+    width: 809px;
+    height: 61px;
+    top: 0;
+    left: 0;
+    background: transparent;
+    border: none;
+    z-index: 73;
+    outline: none;
+  }
+  .search {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 23px;
+    color: #7387a3;
+    font-family: Yekan Bakh, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 71;
+  }
+  .icon-search{
+    flex-shrink: 0;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: url(./assets/images/header/search-icon.png) no-repeat center;
+    background-size: cover;
+    z-index: 72;
+    overflow: hidden;
+  }
+
+
+  /* dropdown-menu */
+  
+
+  .dropdown-content {
+    display: none; /* مخفی کردن منو به طور پیش‌فرض */
+    position: absolute; /* موقعیت مطلق برای حفظ مکان فعلی */
+    top: calc(100% + 5px); /* قرار دادن منو زیر آیکون با فاصله */
+    left: 0; /* تراز کردن منو به سمت چپ */
+    background-color: white; /* پس‌زمینه سفید برای منو */
+    min-width: 160px; /* حداقل عرض منو */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* سایه برای منو */
+    z-index: 100000; /* اطمینان از اینکه منو بالای سایر عناصر قرار گیرد */
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  /* استایل برای نمایش منو */
+  .dropdown-content.show {
+      display: block; /* نمایش منو وقتی کلاس show وجود دارد */
+  }
+  
+  .dropdown-content a {
+      color: black; /* رنگ متن لینک‌ها */
+      padding: 12px; /* فاصله داخلی لینک‌ها */
+      text-decoration: none; /* حذف خط زیر لینک‌ها */
+      display: block; /* نمایش لینک‌ها به صورت بلوک */
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #f1f1f1; /* تغییر رنگ پس‌زمینه هنگام هاور */
+  }
+  
+  /* استایل برای لایه محو کننده */

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block-Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yekan+Bakh:wght@300;400;600&display=swap" />
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./dash-menu.css">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="flex-row-fff">
+      <!--menu-->
+      <div class="rectangle">
+        <div class="image-menu">
+          <a href="#"><div class="finla-farsi"></div></a>
+          <a href="#"><div class="finla-farsi-1"></div></a>
+        </div>
+        <div class="menu-content">
+          <div class="menu-content-all">
+            <span class="menu-text">منو</span>
+            <div class="menu-button">
+              <!--دکمه داشبورد-->
+             <button class="dashboard-button" type="button" onclick="location.href='dev404.ir';">
+                <div class="dashboard-button_span"><span class="twelve">۱۲</span></div>
+                <span class="dashboard-button_text">داشبورد</span>
+                <!--ایکون دکمه داشبورد-->
+                <div class="grid">
+                <img src="./assets/images/dashboard/grid.svg" alt="">
+                </div>
+                <!--ایکون دکمه داشبورد-->
+
+              </button>
+              <!--دکمه داشبورد-->
+              <!--دکمه لیست تبلیغات من-->
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">لیست تبلیغات من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/file.png" class="icon" alt=""></div>
+              </button>
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">لیست بلاک من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/block-list.png" class="icon" alt=""></div>
+              </button>
+              <button class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">ارسال تیکت</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/send-ticket.png" class="icon" alt=""></div>
+              </button>
+              <div class="dashboard-button3">
+                <button class="span-button" ><span class="two">۲</span></button
+                ><span class="dashboard-button_text2">تیکت های من</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/i-tecket.png" class="icon" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="frame-12">
+            <span class="dashboard-button_text2" >تنظیمات</span>
+            <div class="frame-13">
+              <button  class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">تغییر رمز عبور</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/finger.png" class="icon" alt=""></div>
+              </button> 
+              <button  class="dashboard-button2" onclick="location.href='dev404.ir';">
+                <span class="dashboard-button_text2">درباره ما</span>
+                <div class="icon-box"><img src="./assets/images/dashboard/about.png" class="icon" alt=""></div>
+              </button> 
+            </div>
+          </div>
+        </div>
+        <div class="space-zone"></div>
+        <div class="profile-dashboard">
+          <button class="profile-logout" type="button" onclick="location.href='#';"></button>
+          <div class="profile-box">
+            <div class="profile-box_text">
+              <span class="human-hosseini">هومن حسنی</span
+              ><span class="logout-text">خروج از حساب</span>
+            </div>
+            <a href="#"><img src="./assets/images/dashboard/prfile-img.png" class="profile-img" ></a>
+          </div>
+        </div>
+      </div>
+      <!--menu-->
+      <!--Header-->
+      <div class="header-container">
+        <div class="header-profile-box">
+          <div class="icon-down" onclick="toggleDropdown()">
+          
+          </div>
+          <div class="header-profile_text">
+            <span class="userName">هومن حسنی</span>
+            <span class="userAccess">مدیر سیستم</span>
+          </div>
+          <a href="#"><img src="./assets/images/header/user-prof.png" alt="" class="profile-img"></a>
+          
+          <div id="dropdownMenu" class="dropdown-content">
+            <a href="#">پروفایل</a>
+            <a href="#">تنظیمات</a>
+            <a href="#">خروج</a>
+          </div>
+         
+        </div>
+
+        <a href="#"><img src="./assets/images/header/qu-icon.png" alt="" class="qu-icon"></a>
+        <div class="header-search-box">
+          <input type="text" class="input frame-input" id="searchInput" placeholder="جستجو..." dir="rtl" style="padding-right: 5rem;" />
+
+          <div class="icon-search"></div>
+        </div>
+      </div>
+
+
+        <div class="broadcamp">
+          <span class="broadcamp-to">لیست بلاک من</span
+          ><span class="broadcamp-arrow">></span><span class="broadcamp-main">خانه</span>
+        </div>
+        <div class="block-container">
+          <div class="block-top-content">
+            <span class="block-title">لیست بلاک من</span>
+            <div class="block-row">
+              <span class="b-row1">#</span><span class="b-row2">پیج</span
+              ><span class="b-row3">تاریخ ثبت در لیست</span
+              ><span class="b-row4">جذف</span>
+            </div>
+            <div class="line-divider"></div>
+            <div class="block-content-box">
+              <div class="block-content">
+                <div class="block-content-style">
+                  <div class="block-content-style-icon">
+                    <div class="icon-box"><div class="i-remove"></div></div>
+                  </div>
+                  <span class="block-date">۱۴۰۳/۰۴/۲۳</span
+                  ><span class="block-detail"
+                    >مشکل در بارگذاری گزارش عملکرد کمپین</span
+                  ><span class="block-num">#۰۱</span>
+                </div>
+              </div>
+              <div class="block-content">
+                <div class="block-content-style">
+                  <div class="block-content-style-icon">
+                    <div class="icon-box"><div class="i-remove"></div></div>
+                  </div>
+                  <span class="block-date">۱۴۰۳/۰۴/۲۳</span
+                  ><span class="block-detail"
+                    >مشکل در بارگذاری گزارش عملکرد کمپین</span
+                  ><span class="block-num">#۰۱</span>
+                </div>
+              </div>
+              <div class="block-content">
+                <div class="block-content-style">
+                  <div class="block-content-style-icon">
+                    <div class="icon-box"><div class="i-remove"></div></div>
+                  </div>
+                  <span class="block-date">۱۴۰۳/۰۴/۲۳</span
+                  ><span class="block-detail"
+                    >مشکل در بارگذاری گزارش عملکرد کمپین</span
+                  ><span class="block-num">#۰۱</span>
+                </div>
+              </div>
+              <div class="block-content">
+                <div class="block-content-style">
+                  <div class="block-content-style-icon">
+                    <div class="icon-box"><div class="i-remove"></div></div>
+                  </div>
+                  <span class="block-date">۱۴۰۳/۰۴/۲۳</span
+                  ><span class="block-detail"
+                    >مشکل در بارگذاری گزارش عملکرد کمپین</span
+                  ><span class="block-num">#۰۱</span>
+                </div>
+              </div>
+              <div class="block-content">
+                <div class="block-content-style">
+                  <div class="block-content-style-icon">
+                    <div class="icon-box"><div class="i-remove"></div></div>
+                  </div>
+                  <span class="block-date">۱۴۰۳/۰۴/۲۳</span
+                  ><span class="block-detail"
+                    >مشکل در بارگذاری گزارش عملکرد کمپین</span
+                  ><span class="block-num">#۰۱</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-37">
+        <div class="frame-38">
+          <div class="frame-39">
+            <span class="block-pages">بلاک کردن پیج ها</span
+            ><span class="block-list-3a"
+              >لطفا لیست پیج هایی که قصد دارید در تبلیغات شما بلاک شوند را وارد
+              کنید:</span
+            >
+          </div>
+          <div class="frame-3b">
+            <div class="frame-3c">
+              
+              <input type="text" class="input-1" id="listInput" placeholder="لیست خود را وارد کنید..." dir="rtl" />
+            </div>
+          </div>
+          <button class="button">
+            <span class="submit-list">ثبت لیست</span>
+          </button>
+        </div>
+      </div>
+    </div>
+ <script src="./script.js"></script>
+  </body>
+</html>
